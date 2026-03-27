@@ -308,11 +308,16 @@ body {
     .heading h2 {
         font-size: 32px;
     }
-    .projects-card{
+
+    .projects-card {
         flex-direction: column;
     }
+
     .projects-img img {
         width: 100%;
+    }
+    .footer-img {
+        gap: 15px;
     }
 }
 
@@ -325,7 +330,8 @@ body {
     #hero-image img {
         width: 100%;
     }
-    #hero-container{
+
+    #hero-container {
         padding: 0;
     }
 
@@ -349,17 +355,38 @@ body {
     .card-box {
         align-items: center;
     }
-    .projects-card{
+
+    .projects-card {
         padding: 10px;
     }
-    .projects-content{
+
+    .projects-content {
         text-align: center;
     }
-    .company-card{
+
+    .company-card {
         flex-direction: column;
     }
-    .company-card img{
+
+    .company-card img {
         max-width: 150px;
         width: 100%;
+    }
+
+    #foot {
+        padding: 0;
+    }
+
+    #footer p {
+        font-size: 9px;
+    }
+
+    .footer-img {
+        margin-left: auto;
+        display: flex;
+        gap: 10px;
+    }
+    #footer{
+        padding: 8px;
     }
 }
